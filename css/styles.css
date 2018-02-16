@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+}
+
+/* Start of nav styles */
+
+.main-nav {
+ height: 120px;
+ width: 100%;
+ background-color: #ccddff;
+ }
+ .logo {
+ height: 110%;
+}
+.nav-list {
+  float: right;
+  list-style: none;
+}
+.nav-item {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.home {
+  color: #ffffe6;
+  text-decoration: none;
+  font-size: 25px;
+}
+.about {
+  color: #ffffe6;
+  text-decoration: none;
+  font-size: 25px;
+}
+.contact {
+  color: #ffffe6;
+  text-decoration: none;
+  font-size: 25px;
+}
+/*End of nav styles*/
+
+/*Start of hero styles*/
+
+.hero-section {
+  height: 450px;
+  background-image: url('../images/dynamologo.jpg');
+  background-size: 100% 100%;
+}
+.hero-text {
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 230px;
+  font-size: 70px;
+  color: #ffffe6;
+  }
+.text-background {
+  background-color: rgba(0,0,0,.2);
+  padding: 10px;
+  }
+/* End hero styles */
+
+/* Start of column styles */
+
+.container {
+  height: 600px;
+  background-color: #ccddff;
+  padding: 2.25%;
+  }
+.column {
+  height: 500px;
+  width: 30%;
+  border: 3px solid #ffffe6;
+  text-align: center;
+  float: left;
+  margin-left: 2.25%;
+  color: #fafafa;
+  background-color: rgba(0,0,0,.2);
+  font-size: 24px;
+  overflow: auto;
+  list-style-image: url(../images/puckbullet.png);
+  
+  }
+.column-image {
+  width: 100%;
+  height: 140px;
+  }
+/* End column styles */
+
+/* Start button styles */
+
+.button-box {
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  background-color: purple;
+  padding: 10px 12px;
+  text-align: center;
+  border: none;
+  box-shadow: 3px 3px 10px #707070;
+  border-radius: 20px;
+  margin-top: 30px;
+  
+}
+
+.button-text {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+/* End button styles */
+
+/* Start map styles */
+
+.map-container {
+  width: 75%;
+  margin: 0 auto;
+}
+/* End map styles */
+
+/* Start footer styles */
+
+.main-footer {
+  height: 150px;
+  width: 100%;
+}
+
+
+.main-box {
+  height: 150px;
+  width: 150px;
+}
+
+.footer-section {
+  width: 33%;
+  border-right: 1px solid #ffffe6;
+  float: left;
+  height: 100%;
+  background-color: #ffffe6;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.center-text {
+  padding-top: 13px;
+}
+
+.fb {
+   font-size: 35px; 
+   color: rgb(59, 89, 152);
+}    
+
+.twitter {
+    font-size: 35px;
+    color: rgb(0, 172, 237);
+}
+
+.instagram {
+  width: 41px;
+  height: 31px;
+  text-align: center;
+  border-radius: 11.3px;
+  font-size: 29px;
+  line-height: 8px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.instagram .fa-instagram {
+  color: #fff;
+}
+
+.amazon {
+    font-size: 35px;
+    color: yellow;
+}
+
+
+/* End footer styles */
+
+/* Selfie styles */
+.selfie {
+  height: 500px;
+  float: left;
+  width: 23%;
+}
+/* End selfie styles */
+
+/* Start contact styles */
+.contact-box {
+  float: right;
+  width: 77%;
+  height: 500px;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 30px;
+  background-color: #ffffe6;
+}
+/* End contact styles */
